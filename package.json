@@ -1,0 +1,33 @@
+{
+  "name": "mnv-elections",
+  "version": "0.0.1",
+  "main": "dist/elections.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "jest": "^18.1.0",
+    "standard": "^8.6.0"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && babel src --out-dir dist",
+    "test": "standard && jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "describe",
+      "expect"
+    ]
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
+  }
+}
