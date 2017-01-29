@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mynextvote/elections.svg?branch=master)](https://travis-ci.org/mynextvote/elections)
 
-Elections provides a set of utilities to programatically find US days.
+Elections provides a set of utilities to programatically find US election days.
 Currently it is limited to US General elections, however support for state
 elections and primaries is being developed.
 
