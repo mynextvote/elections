@@ -22,7 +22,7 @@ const 2018 = getGeneralElection(2018) // 2018-11-06
 ```
 
 You can also format the results by providing a valid moment style format string.
-```
+```js
 // optionally, specify a momentjs format to customize the format. 
 const 2062 = getGeneralElection(2062, 'MMMM, Do, YYYY') // November 7th, 2062
 ```
