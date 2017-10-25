@@ -1,5 +1,7 @@
 ## Elections
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mynextvote/elections.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/mynextvote/elections.svg?branch=master)](https://travis-ci.org/mynextvote/elections)
 
 Elections provides a set of utilities to programatically find US election days.
